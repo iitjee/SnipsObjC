@@ -1,5 +1,0 @@
-/*
-	Tabbar
-*/
-
-To configure the tabs of a tab bar controller, you assign the view controllers that provide the root view for each tab to the viewControllers property. 
