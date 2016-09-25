@@ -13,13 +13,13 @@
 //3
     navigationBarButtons = [self.navigationItem.rightBarButtonItems mutableCopy];
 
-//4
+//4 Adds(Unhides) barbuttonitem object
 if(![navigationBarButtons containsObject:self.getFeedButton]) {
         [navigationBarButtons addObject:self.getFeedButton];
         [self.navigationItem setRightBarButtonItems:navigationBarButtons];
     }
 
-//5 Removes object
+//5 Removes(Hides) barbuttonitem object
 if(<#your-condition#> {
     [navigationBarButtons removeObject:self.getFeedButton];
     [self.navigationItem setRightBarButtonItems:navigationBarButtons];
