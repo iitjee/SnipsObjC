@@ -27,7 +27,6 @@ __Preventing Popping to RootViewController when User clicks the Currently select
 ```objective-c
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
 {
-    //Here viewController=The view controller belonging to the tab that was tapped by the user.
     if(viewController == self.selectedViewController) return NO;
     else return YES;
 }
