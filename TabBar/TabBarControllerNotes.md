@@ -11,7 +11,7 @@ self.tabBarController.selectedIndex = 3; //To go to second tab,
 ```
 **_Note:_** However, if the selected view controller is currently the More navigation controller, `selectedIndex` property contains the value NSNotFound.Therefore, to select the More navigation controller itself, you must ONLY use `selectedViewController` property instead. </br>
 
-
+--------
 __Preventing(Disabling) Selection of Tabs__ 
 * Conform to `UITabBarControllerDelegate` protocol and `self.delegate = self` in its .m file (don't forget to add class name in SB) <br/>
 ```objective-c
@@ -21,6 +21,7 @@ __Preventing(Disabling) Selection of Tabs__
   else return YES;
 }
 ```
+---------
 
 
 
