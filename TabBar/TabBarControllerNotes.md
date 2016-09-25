@@ -6,12 +6,10 @@ __Switching Tabs__ : Two ways</br>
 self.myTabBarController.selectedViewController = [self.myTabBarController.viewControllers objectAtIndex:3];
 ```
 * Use `selectedIndex` property of UITabBarController <br/>
-_eg:_  
 ```objective-c
-self.tabBarController.selectedIndex = 3;
+self.tabBarController.selectedIndex = 3; //To go to second tab,
 ```
-**_Note:_** However, if the selected view controller is currently the More navigation controller, this property contains the value NSNotFound.
-So,  To select the More navigation controller itself, you must ONLY use `selectedViewController` property instead. </br>
+**_Note:_** However, if the selected view controller is currently the More navigation controller, `selectedIndex` property contains the value NSNotFound.Therefore, to select the More navigation controller itself, you must ONLY use `selectedViewController` property instead. </br>
 
 
 __Preventing(Disabling) Selection of Tabs__ 
