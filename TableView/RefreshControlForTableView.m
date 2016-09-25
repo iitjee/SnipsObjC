@@ -8,13 +8,14 @@
 
 //2 in `ViewDidLoad`
     refreshControl = [[UIRefreshControl alloc]init];
+    refreshControl.tintColor = [UIColor blueColor];  
     refreshControl.attributedTitle = [[NSAttributedString alloc]initWithString:@"Refreshing, Please Wait.."
                                                                     attributes:@{
                                                                                  NSFontAttributeName : [UIFont fontWithName:@"Arial" size:16.0],
                                                                         NSForegroundColorAttributeName : [UIColor blueColor]
                                                                                  }
                                       ]; 
-    [self.fbtable addSubview:refreshControl];
+    [<#tableView#> addSubview:refreshControl];
     [refreshControl addTarget:self action:@selector(refreshTable) forControlEvents:UIControlEventValueChanged];
 
 //3 refresh method
@@ -22,7 +23,7 @@
     //TODO: refresh your data
 
     [refreshControl endRefreshing];
-    [self.fbtable reloadData];
+    [<#tableview#> reloadData];
 }
 
 
