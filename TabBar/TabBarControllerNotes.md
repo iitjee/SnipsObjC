@@ -1,6 +1,6 @@
 
 __Switching Tabs__ : Two ways
-* Use `selectedViewController` property of UITabBarController 
+* Use `selectedViewController` property of UITabBarController. (Note that it returns the `rootViewController` of that tab) 
 ```objective-c
 //To go to second tab,
 self.myTabBarController.selectedViewController = [self.myTabBarController.viewControllers objectAtIndex:3];
@@ -31,6 +31,7 @@ __Preventing Popping to RootViewController when User clicks the Currently select
     else return YES;
 }
 ```
+**_Note:_** Remember, selectedViewController returns `rootViewController` of the selected tab
 
 
 
