@@ -1,0 +1,44 @@
+
+__Switching Tabs__ : Use `selectedViewController` property of UITabBarController <br/>
+_eg:_ To go to second tab, <br/> 
+`self.myTabBarController.selectedViewController = [self.myTabBarController.viewControllers objectAtIndex:3];` <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
