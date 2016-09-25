@@ -1,11 +1,11 @@
 
-__Switching Tabs__ : Two ways</br>
-* Use `selectedViewController` property of UITabBarController <br/>
+__Switching Tabs__ : Two ways
+* Use `selectedViewController` property of UITabBarController 
 ```objective-c
 //To go to second tab,
 self.myTabBarController.selectedViewController = [self.myTabBarController.viewControllers objectAtIndex:3];
 ```
-* Use `selectedIndex` property of UITabBarController <br/>
+* Use `selectedIndex` property of UITabBarController
 ```objective-c
 self.tabBarController.selectedIndex = 3; //To go to second tab,
 ```
