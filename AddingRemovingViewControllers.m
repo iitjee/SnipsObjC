@@ -3,6 +3,7 @@
   1. When a Navigation Controller is used, call any one of the following METHODS OF THE NAVIGATIONCONTROLLER
   2. Breaking out of navigation controller hierarchy to another view controller
   3. If you want only to make one exception, but otherwise stay in navigation controller stack, then use methods:
+  4. To dismiss a MODALLY PRESENTED viewcontroller
 */
 
 
@@ -27,3 +28,6 @@ Tip: Add second line in completion block of first line
 /* If you want only to make one exception, but otherwise stay in navigation controller stack, then use next two methods: */
 - (void)addChildViewController:(UIViewController *)childController
 - (void)removeFromParentViewController
+
+/* To dismiss a MODALLY PRESENTED viewcontroller */
+[self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
