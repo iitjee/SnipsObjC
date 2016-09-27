@@ -15,6 +15,13 @@
 - (NSArray *)popToViewController:(UIViewController *)viewController animated:(BOOL)animated
 
 Tip: Use viewControllers property(NSArray) to navigate through the stack :)
+eg1 : //to pop to second level
+[self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];
+
+eg2: //to pop 2 levels back from the current
+NSUInteger ownIndex = [self.navigationController.viewControllers indexOfObject:self];
+[self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:ownIndex - 2] animated:YES];
+
 
 
 /* Breaking out of navigation controller hierarchy to another view controller, call the next two lines */
