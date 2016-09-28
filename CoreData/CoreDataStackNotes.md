@@ -16,3 +16,13 @@ __Note:__
 2. Relationships: eg:  For Book, you've only one publisher. For publishers, you've many books
 
 
+
+**MOC**: 
+This's one your app interacts with most. It's the engine of CoreData
+For eg: When you want to do redo/undo, you don't do on individual objects but on the entire context
+
+
+
+**PSC:**
+It sits in the middle of the stack which handles communication between the other two.
+WE DON'T NEED TO CARE ABOUT THIS
