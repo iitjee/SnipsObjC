@@ -1,5 +1,7 @@
 /*
-
+    Two ways:
+    1. Via code
+    2. Via Fetch Request Template (this is cool ;) )
 */
 
 
@@ -31,3 +33,29 @@ for(Course *c in fetchedObjects)
 { 
   NSLog(@"Course: %@ by author: %@, c.title, c.author); //we are able to use . syntax as we've created custom NSMO subclass remember?
 }
+
+
+
+
+/* Creating Fetch Request Template */
+
+Watch 114535 -> Supercool!
+
+
+NSFetchRequest *fetchRequest = [[self managedObjectModel] fetchRequestTemplateForName: @"Essential Courses"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
