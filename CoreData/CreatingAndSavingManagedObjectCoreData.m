@@ -18,7 +18,7 @@ NSManagedObject *myMO = [NSEntityDescription insertNewObjectForEntityName:@"Cour
 /*  Where is data stored? 
 Go to ~/Library/Application\ Support -> com.xyz.YourProjName -> YourProjName.storeData (this is the persistent store file
 
-Note: By default, Data is saved only after the app is terminated
+Note: By default, Data is saved only after the app is terminated; see in applicationWillTerminate in Appdelegate
 
 */
 
