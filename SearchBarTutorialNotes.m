@@ -15,7 +15,7 @@
   4. Basically, UISearchController acts like a get between your MainTVC and ResultsTVC
      
   5**When the user interacts with the search bar, the search controller notifies the object in its searchResultsUpdater property.
-
+     and in updateSearchResultsForSearchController: method of UISearchResultsUpdating protocol
 
 */
 
@@ -23,7 +23,7 @@
 
 /*  Three protocols - use in the same order given :)
 
-UISearchBarDelegate protocol: defines the optional methods you implement to make a UISearchBar control functional.
+UISearchBarDelegate protocol: defines the OPTIONAL methods you implement to make a UISearchBar control functional.
 https://developer.apple.com/reference/uikit/uisearchbardelegate?language=objc
 
 UISearchControllerDelegate protocol: defines delegate methods for UISearchController objects.
@@ -31,5 +31,13 @@ https://developer.apple.com/reference/uikit/uisearchcontrollerdelegate?language=
 
 UISearchResultsUpdating protocol:(REQUIRED)   allows your class to be informed as text changes within the UISearchBar, has only one method updateSearchResultsForSearchController:
 https://developer.apple.com/reference/uikit/uisearchresultsupdating?language=objc
+
+*/
+
+
+
+/*    SearchBar Properties
+
+self.searchController.searchBar.frame = CGRectMake(0, 64, self.searchController.searchBar.frame.size.width, 44.0);
 
 */
