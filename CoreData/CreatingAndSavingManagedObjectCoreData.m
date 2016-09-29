@@ -3,7 +3,7 @@
 */
 
 //0 Create an Entity "Course" and configure Attributes and Relationships in .xcmodeld just like you do .xcstoryboard
-
+//you might have to see video for relationships
 
 
 //1 Creating managed Object: With it's entity(table) name as Course in the mentioned Context(scratchPad)
