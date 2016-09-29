@@ -18,7 +18,9 @@ In the app's setting, go to your target and the Info tab. There clear the value 
 
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     //if this doesn't work, once try with UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-
+    //Usually main storyboard will be either: MainStoryboard.storyboard or Main.storyboard (Be cautious of StoryBoard)
+    
+    
     UIViewController *viewController 
     
     // determine the initial view controller here and instantiate it with [storyboard instantiateViewControllerWithIdentifier:<storyboard id>];
