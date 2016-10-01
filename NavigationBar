@@ -1,0 +1,14 @@
+/*
+
+
+*/
+
+
+
+To Hide:
+[[self navigationController] setNavigationBarHidden:YES animated:YES];
+self.navigationController?.setNavigationBarHidden(true, animated: true)
+
+To Unhide:
+[[self navigationController] setNavigationBarHidden:NO animated:YES];
+self.navigationController?.setNavigationBarHidden(false, animated: true)
