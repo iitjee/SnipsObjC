@@ -1,11 +1,13 @@
 
 Core Data is not a Db. It's a Db Manager with SQLite as it's Db (aka persistent store).
 
-IMPORTANT: The SQLite file can be found here, ~/Library/Developer/CoreSimulator/Devices/[simulator device id]/data/Applications/[app GUID]/Documents/[appname.sqlite]
+**IMPORTANT**: The SQLite file can be found here, ~/Library/Developer/CoreSimulator/Devices/[simulator device id]/data/Applications/[app GUID]/Documents/[appname.sqlite]
 To get app GUID, go till `~/Library/Developer/CoreSimulator/Devices/[simulator device id]/data/Applications/`
 and `find . -name foo.app`
 
 Or Simply `NSLog(@"open %@", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]);`
+(its a c style function)
+
 
 Saving/Persist = 'Manage' => CoreData (with no second thought)
 DataModel => Managed Object
