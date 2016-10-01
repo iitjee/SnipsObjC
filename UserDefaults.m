@@ -32,3 +32,5 @@ eg: You want to remove(reset) all the stored values for all the corresponding ke
     }
     [defs synchronize];
 }
+
+^Just Define and call in Appdelegate :)
