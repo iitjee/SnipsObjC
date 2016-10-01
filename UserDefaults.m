@@ -22,8 +22,8 @@ NSArray *arrayOfImages = [userDefaults objectForKey:@"tableViewDataImage"];
 NSArray *arrayOfText = [userDefaults objectForKey:@"tableViewDataText"];
 
 
-/* Get all the Keys stored in NSUserDefaults */
-eg: You want to remove all the stored values for all the corresponding keys
+/* Get all the Keys stored in NSUserDefaults, Call `dictionaryRepresentation` method of NSUserDefaults object */
+eg: You want to remove(reset) all the stored values for all the corresponding keys
   - (void)resetDefaults {
     NSUserDefaults * defs = [NSUserDefaults standardUserDefaults];
     NSDictionary * dict = [defs dictionaryRepresentation];
