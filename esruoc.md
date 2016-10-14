@@ -3,9 +3,11 @@ Urgent: http://campus.codeschool.com/courses/mastering-github/level/1/section/4/
 
 http://www.pluralsight.com //cool, extensive coverge on Docker
 
+https://www.packtpub.com/books/subscription/mapt (go to Subscription Plans section)
+https://github.com/niqdev/packtpub-crawler
+
 caster.io //for android
 
-http://KnowledgeCity.com
 
 www.learnNowOnline.com
 
@@ -39,3 +41,8 @@ https://www.coursera.org/
 edX - www.edx.org
 
 https://hackhands.com/ //only technical help
+
+
+NOT GREAT
+http://KnowledgeCity.com
+
