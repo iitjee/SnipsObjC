@@ -1,7 +1,7 @@
 /*
     1. Make XIB and class files(.h, .m) for each Cell. (Add the name of Class in XIB)
     2. Design them and connect IBOutlets. (Note: Names shouldn't match `textLabel`, `imageView`)
-    3. We use Cell Identifiers same as their ClassNames.
+    3. We use Cell Identifiers same as their ClassNames so that the same thing can be used in loadNibNamed: method
 */
 
 
